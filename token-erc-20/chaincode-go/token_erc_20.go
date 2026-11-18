@@ -20,4 +20,6 @@ func main() {
 	if err := tokenChaincode.Start(); err != nil {
 		log.Panicf("Error starting token-erc-20 chaincode: %v", err)
 	}
+
+	
 }
